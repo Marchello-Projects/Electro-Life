@@ -1,0 +1,512 @@
+{% extends "base.html" %}
+
+{% block title %}Electro-Life (Main Page){% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+{% endblock %}
+
+{% block main %}
+<div class="main_forblockFilter">
+    <div class="main_forblockFilter_blockFilter">
+        <p class="main_forblockFilter_blockFilter_text">Відфільтровані</p>
+                <div id="productBlockFilter" class="main_forblockFilter_blockFilter_forproducts main_forblock1_block1_forproducts_filterProduct"></div>
+            </div>
+        </div>
+        <div class="main_forline">
+            <div class="main_forline_line"></div>
+        </div>
+        <div id="DetalPC" class="main_forblock1">
+            <div class="main_forblock1_block1">
+                <p class="main_forblock1_block1_text">Комплектуючі</p>
+                <div id="productBlock" class="main_forblock1_block1_forproducts">
+                    <div class="main_forblock1_block1_forproducts_product">
+                        <div class="main_forblock1_block1_forproducts_product_forcenter">
+                            <div class="main_forblock1_block1_forproducts_product_forcenter_forimg">
+                                <img id="ImgContent" class="main_forblock1_block1_forproducts_product_forcenter_forimg_img" src="{{ url_for('static', filename='img/component1 1.png') }}" alt="ram ddr4">
+                            </div>
+                            <div class="main_forblock1_block1_forproducts_product_forcenter_fortexts">
+                                <div class="main_forblock1_block1_forproducts_product_forcenter_fortexts_texts">
+                                    <p id="textContent" class="main_forblock1_block1_forproducts_product_forcenter_fortexts_texts_text1">Ram DDR4</p>
+                                    <p class="main_forblock1_block1_forproducts_product_forcenter_fortexts_texts_text2">SODIMM DDR4-3200 8192MB PC4-25600</p>
+                                </div>
+                            </div>
+                            <div class="main_forblock1_block1_forproducts_product_forcenter_forbtn">
+                                <div class="main_forblock1_block1_forproducts_product_forcenter_forbtn_blockbtn">
+                                    <button idBtn="${products.id}" class="main_forblock1_block1_forproducts_product_forcenter_forbtn_blockbtn_btn btnBuy">add to cart</button>
+                                    <p class="main_forblock1_block1_forproducts_product_forcenter_forbtn_blockbtn_text">899 UAH</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main_forblock1_block1_forproducts_product">
+                        <div class="main_forblock1_block1_forproducts_product_forcenter">
+                            <div class="main_forblock1_block1_forproducts_product_forcenter_forimg">
+                                <img id="ImgContent" class="main_forblock1_block1_forproducts_product_forcenter_forimg_img" src="{{ url_for('static', filename='img/component1 1.png') }}" alt="ram ddr4">
+                            </div>
+                            <div class="main_forblock1_block1_forproducts_product_forcenter_fortexts">
+                                <div class="main_forblock1_block1_forproducts_product_forcenter_fortexts_texts">
+                                    <p id="textContent" class="main_forblock1_block1_forproducts_product_forcenter_fortexts_texts_text1">Ram DDR4</p>
+                                    <p class="main_forblock1_block1_forproducts_product_forcenter_fortexts_texts_text2">SODIMM DDR4-3200 8192MB PC4-25600</p>
+                                </div>
+                            </div>
+                            <div class="main_forblock1_block1_forproducts_product_forcenter_forbtn">
+                                <div class="main_forblock1_block1_forproducts_product_forcenter_forbtn_blockbtn">
+                                    <button idBtn="${products.id}" class="main_forblock1_block1_forproducts_product_forcenter_forbtn_blockbtn_btn btnBuy">add to cart</button>
+                                    <p class="main_forblock1_block1_forproducts_product_forcenter_forbtn_blockbtn_text">899 UAH</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main_forblock1_block1_forproducts_product">
+                        <div class="main_forblock1_block1_forproducts_product_forcenter">
+                            <div class="main_forblock1_block1_forproducts_product_forcenter_forimg">
+                                <img id="ImgContent" class="main_forblock1_block1_forproducts_product_forcenter_forimg_img" src="{{ url_for('static', filename='img/component1 1.png') }}" alt="ram ddr4">
+                            </div>
+                            <div class="main_forblock1_block1_forproducts_product_forcenter_fortexts">
+                                <div class="main_forblock1_block1_forproducts_product_forcenter_fortexts_texts">
+                                    <p id="textContent" class="main_forblock1_block1_forproducts_product_forcenter_fortexts_texts_text1">Ram DDR4</p>
+                                    <p class="main_forblock1_block1_forproducts_product_forcenter_fortexts_texts_text2">SODIMM DDR4-3200 8192MB PC4-25600</p>
+                                </div>
+                            </div>
+                            <div class="main_forblock1_block1_forproducts_product_forcenter_forbtn">
+                                <div class="main_forblock1_block1_forproducts_product_forcenter_forbtn_blockbtn">
+                                    <button idBtn="${products.id}" class="main_forblock1_block1_forproducts_product_forcenter_forbtn_blockbtn_btn btnBuy">add to cart</button>
+                                    <p class="main_forblock1_block1_forproducts_product_forcenter_forbtn_blockbtn_text">899 UAH</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main_forblock1_block1_forproducts_product">
+                        <div class="main_forblock1_block1_forproducts_product_forcenter">
+                            <div class="main_forblock1_block1_forproducts_product_forcenter_forimg">
+                                <img id="ImgContent" class="main_forblock1_block1_forproducts_product_forcenter_forimg_img" src="{{ url_for('static', filename='img/component1 1.png') }}" alt="ram ddr4">
+                            </div>
+                            <div class="main_forblock1_block1_forproducts_product_forcenter_fortexts">
+                                <div class="main_forblock1_block1_forproducts_product_forcenter_fortexts_texts">
+                                    <p id="textContent" class="main_forblock1_block1_forproducts_product_forcenter_fortexts_texts_text1">Ram DDR4</p>
+                                    <p class="main_forblock1_block1_forproducts_product_forcenter_fortexts_texts_text2">SODIMM DDR4-3200 8192MB PC4-25600</p>
+                                </div>
+                            </div>
+                            <div class="main_forblock1_block1_forproducts_product_forcenter_forbtn">
+                                <div class="main_forblock1_block1_forproducts_product_forcenter_forbtn_blockbtn">
+                                    <button idBtn="${products.id}" class="main_forblock1_block1_forproducts_product_forcenter_forbtn_blockbtn_btn btnBuy">add to cart</button>
+                                    <p class="main_forblock1_block1_forproducts_product_forcenter_forbtn_blockbtn_text">899 UAH</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main_forblock1_block1_forproducts_product">
+                        <div class="main_forblock1_block1_forproducts_product_forcenter">
+                            <div class="main_forblock1_block1_forproducts_product_forcenter_forimg">
+                                <img id="ImgContent" class="main_forblock1_block1_forproducts_product_forcenter_forimg_img" src="{{ url_for('static', filename='img/component1 1.png') }}" alt="ram ddr4">
+                            </div>
+                            <div class="main_forblock1_block1_forproducts_product_forcenter_fortexts">
+                                <div class="main_forblock1_block1_forproducts_product_forcenter_fortexts_texts">
+                                    <p id="textContent" class="main_forblock1_block1_forproducts_product_forcenter_fortexts_texts_text1">Ram DDR4</p>
+                                    <p class="main_forblock1_block1_forproducts_product_forcenter_fortexts_texts_text2">SODIMM DDR4-3200 8192MB PC4-25600</p>
+                                </div>
+                            </div>
+                            <div class="main_forblock1_block1_forproducts_product_forcenter_forbtn">
+                                <div class="main_forblock1_block1_forproducts_product_forcenter_forbtn_blockbtn">
+                                    <button idBtn="${products.id}" class="main_forblock1_block1_forproducts_product_forcenter_forbtn_blockbtn_btn btnBuy">add to cart</button>
+                                    <p class="main_forblock1_block1_forproducts_product_forcenter_forbtn_blockbtn_text">899 UAH</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main_forblock1_block1_forproducts_product">
+                        <div class="main_forblock1_block1_forproducts_product_forcenter">
+                            <div class="main_forblock1_block1_forproducts_product_forcenter_forimg">
+                                <img id="ImgContent" class="main_forblock1_block1_forproducts_product_forcenter_forimg_img" src="{{ url_for('static', filename='img/component1 1.png') }}" alt="ram ddr4">
+                            </div>
+                            <div class="main_forblock1_block1_forproducts_product_forcenter_fortexts">
+                                <div class="main_forblock1_block1_forproducts_product_forcenter_fortexts_texts">
+                                    <p id="textContent" class="main_forblock1_block1_forproducts_product_forcenter_fortexts_texts_text1">Ram DDR4</p>
+                                    <p class="main_forblock1_block1_forproducts_product_forcenter_fortexts_texts_text2">SODIMM DDR4-3200 8192MB PC4-25600</p>
+                                </div>
+                            </div>
+                            <div class="main_forblock1_block1_forproducts_product_forcenter_forbtn">
+                                <div class="main_forblock1_block1_forproducts_product_forcenter_forbtn_blockbtn">
+                                    <button idBtn="${products.id}" class="main_forblock1_block1_forproducts_product_forcenter_forbtn_blockbtn_btn btnBuy">add to cart</button>
+                                    <p class="main_forblock1_block1_forproducts_product_forcenter_forbtn_blockbtn_text">899 UAH</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main_forline">
+            <div class="main_forline_line"></div>
+        </div>
+        <div id="NewPC" class="main_forblock1">
+            <div class="main_forblock1_block1">
+                <p class="main_forblock1_block1_text">Готові ПК</p>
+                <div id="productBlock" class="main_forblock1_block1_forproducts">
+                    <div class="main_forblock1_block1_forproducts_product">
+                        <div class="main_forblock1_block1_forproducts_product_forcenter">
+                            <div class="main_forblock1_block1_forproducts_product_forcenter_forimg">
+                                <img id="ImgContent" class="main_forblock1_block1_forproducts_product_forcenter_forimg_img" src="{{ url_for('static', filename='img/component1 1.png') }}" alt="ram ddr4">
+                            </div>
+                            <div class="main_forblock1_block1_forproducts_product_forcenter_fortexts">
+                                <div class="main_forblock1_block1_forproducts_product_forcenter_fortexts_texts">
+                                    <p id="textContent" class="main_forblock1_block1_forproducts_product_forcenter_fortexts_texts_text1">Ram DDR4</p>
+                                    <p class="main_forblock1_block1_forproducts_product_forcenter_fortexts_texts_text2">SODIMM DDR4-3200 8192MB PC4-25600</p>
+                                </div>
+                            </div>
+                            <div class="main_forblock1_block1_forproducts_product_forcenter_forbtn">
+                                <div class="main_forblock1_block1_forproducts_product_forcenter_forbtn_blockbtn">
+                                    <button idBtn="${products.id}" class="main_forblock1_block1_forproducts_product_forcenter_forbtn_blockbtn_btn btnBuy">add to cart</button>
+                                    <p class="main_forblock1_block1_forproducts_product_forcenter_forbtn_blockbtn_text">899 UAH</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main_forblock1_block1_forproducts_product">
+                        <div class="main_forblock1_block1_forproducts_product_forcenter">
+                            <div class="main_forblock1_block1_forproducts_product_forcenter_forimg">
+                                <img id="ImgContent" class="main_forblock1_block1_forproducts_product_forcenter_forimg_img" src="{{ url_for('static', filename='img/component1 1.png') }}" alt="ram ddr4">
+                            </div>
+                            <div class="main_forblock1_block1_forproducts_product_forcenter_fortexts">
+                                <div class="main_forblock1_block1_forproducts_product_forcenter_fortexts_texts">
+                                    <p id="textContent" class="main_forblock1_block1_forproducts_product_forcenter_fortexts_texts_text1">Ram DDR4</p>
+                                    <p class="main_forblock1_block1_forproducts_product_forcenter_fortexts_texts_text2">SODIMM DDR4-3200 8192MB PC4-25600</p>
+                                </div>
+                            </div>
+                            <div class="main_forblock1_block1_forproducts_product_forcenter_forbtn">
+                                <div class="main_forblock1_block1_forproducts_product_forcenter_forbtn_blockbtn">
+                                    <button idBtn="${products.id}" class="main_forblock1_block1_forproducts_product_forcenter_forbtn_blockbtn_btn btnBuy">add to cart</button>
+                                    <p class="main_forblock1_block1_forproducts_product_forcenter_forbtn_blockbtn_text">899 UAH</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main_forblock1_block1_forproducts_product">
+                        <div class="main_forblock1_block1_forproducts_product_forcenter">
+                            <div class="main_forblock1_block1_forproducts_product_forcenter_forimg">
+                                <img id="ImgContent" class="main_forblock1_block1_forproducts_product_forcenter_forimg_img" src="{{ url_for('static', filename='img/component1 1.png') }}" alt="ram ddr4">
+                            </div>
+                            <div class="main_forblock1_block1_forproducts_product_forcenter_fortexts">
+                                <div class="main_forblock1_block1_forproducts_product_forcenter_fortexts_texts">
+                                    <p id="textContent" class="main_forblock1_block1_forproducts_product_forcenter_fortexts_texts_text1">Ram DDR4</p>
+                                    <p class="main_forblock1_block1_forproducts_product_forcenter_fortexts_texts_text2">SODIMM DDR4-3200 8192MB PC4-25600</p>
+                                </div>
+                            </div>
+                            <div class="main_forblock1_block1_forproducts_product_forcenter_forbtn">
+                                <div class="main_forblock1_block1_forproducts_product_forcenter_forbtn_blockbtn">
+                                    <button idBtn="${products.id}" class="main_forblock1_block1_forproducts_product_forcenter_forbtn_blockbtn_btn btnBuy">add to cart</button>
+                                    <p class="main_forblock1_block1_forproducts_product_forcenter_forbtn_blockbtn_text">899 UAH</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main_forblock1_block1_forproducts_product">
+                        <div class="main_forblock1_block1_forproducts_product_forcenter">
+                            <div class="main_forblock1_block1_forproducts_product_forcenter_forimg">
+                                <img id="ImgContent" class="main_forblock1_block1_forproducts_product_forcenter_forimg_img" src="{{ url_for('static', filename='img/component1 1.png') }}" alt="ram ddr4">
+                            </div>
+                            <div class="main_forblock1_block1_forproducts_product_forcenter_fortexts">
+                                <div class="main_forblock1_block1_forproducts_product_forcenter_fortexts_texts">
+                                    <p id="textContent" class="main_forblock1_block1_forproducts_product_forcenter_fortexts_texts_text1">Ram DDR4</p>
+                                    <p class="main_forblock1_block1_forproducts_product_forcenter_fortexts_texts_text2">SODIMM DDR4-3200 8192MB PC4-25600</p>
+                                </div>
+                            </div>
+                            <div class="main_forblock1_block1_forproducts_product_forcenter_forbtn">
+                                <div class="main_forblock1_block1_forproducts_product_forcenter_forbtn_blockbtn">
+                                    <button idBtn="${products.id}" class="main_forblock1_block1_forproducts_product_forcenter_forbtn_blockbtn_btn btnBuy">add to cart</button>
+                                    <p class="main_forblock1_block1_forproducts_product_forcenter_forbtn_blockbtn_text">899 UAH</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main_forblock1_block1_forproducts_product">
+                        <div class="main_forblock1_block1_forproducts_product_forcenter">
+                            <div class="main_forblock1_block1_forproducts_product_forcenter_forimg">
+                                <img id="ImgContent" class="main_forblock1_block1_forproducts_product_forcenter_forimg_img" src="{{ url_for('static', filename='img/component1 1.png') }}" alt="ram ddr4">
+                            </div>
+                            <div class="main_forblock1_block1_forproducts_product_forcenter_fortexts">
+                                <div class="main_forblock1_block1_forproducts_product_forcenter_fortexts_texts">
+                                    <p id="textContent" class="main_forblock1_block1_forproducts_product_forcenter_fortexts_texts_text1">Ram DDR4</p>
+                                    <p class="main_forblock1_block1_forproducts_product_forcenter_fortexts_texts_text2">SODIMM DDR4-3200 8192MB PC4-25600</p>
+                                </div>
+                            </div>
+                            <div class="main_forblock1_block1_forproducts_product_forcenter_forbtn">
+                                <div class="main_forblock1_block1_forproducts_product_forcenter_forbtn_blockbtn">
+                                    <button idBtn="${products.id}" class="main_forblock1_block1_forproducts_product_forcenter_forbtn_blockbtn_btn btnBuy">add to cart</button>
+                                    <p class="main_forblock1_block1_forproducts_product_forcenter_forbtn_blockbtn_text">899 UAH</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main_forblock1_block1_forproducts_product">
+                        <div class="main_forblock1_block1_forproducts_product_forcenter">
+                            <div class="main_forblock1_block1_forproducts_product_forcenter_forimg">
+                                <img id="ImgContent" class="main_forblock1_block1_forproducts_product_forcenter_forimg_img" src="{{ url_for('static', filename='img/component1 1.png') }}" alt="ram ddr4">
+                            </div>
+                            <div class="main_forblock1_block1_forproducts_product_forcenter_fortexts">
+                                <div class="main_forblock1_block1_forproducts_product_forcenter_fortexts_texts">
+                                    <p id="textContent" class="main_forblock1_block1_forproducts_product_forcenter_fortexts_texts_text1">Ram DDR4</p>
+                                    <p class="main_forblock1_block1_forproducts_product_forcenter_fortexts_texts_text2">SODIMM DDR4-3200 8192MB PC4-25600</p>
+                                </div>
+                            </div>
+                            <div class="main_forblock1_block1_forproducts_product_forcenter_forbtn">
+                                <div class="main_forblock1_block1_forproducts_product_forcenter_forbtn_blockbtn">
+                                    <button idBtn="${products.id}" class="main_forblock1_block1_forproducts_product_forcenter_forbtn_blockbtn_btn btnBuy">add to cart</button>
+                                    <p class="main_forblock1_block1_forproducts_product_forcenter_forbtn_blockbtn_text">899 UAH</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main_forline">
+            <div class="main_forline_line"></div>
+        </div>
+        <div id="RaspberryPi" class="main_forblock1">
+            <div class="main_forblock1_block1">
+                <p class="main_forblock1_block1_text">Raspberry Pi</p>
+                <div id="productBlock" class="main_forblock1_block1_forproducts">
+                    <div class="main_forblock1_block1_forproducts_product">
+                        <div class="main_forblock1_block1_forproducts_product_forcenter">
+                            <div class="main_forblock1_block1_forproducts_product_forcenter_forimg">
+                                <img id="ImgContent" class="main_forblock1_block1_forproducts_product_forcenter_forimg_img" src="{{ url_for('static', filename='img/component1 1.png') }}" alt="ram ddr4">
+                            </div>
+                            <div class="main_forblock1_block1_forproducts_product_forcenter_fortexts">
+                                <div class="main_forblock1_block1_forproducts_product_forcenter_fortexts_texts">
+                                    <p id="textContent" class="main_forblock1_block1_forproducts_product_forcenter_fortexts_texts_text1">Ram DDR4</p>
+                                    <p class="main_forblock1_block1_forproducts_product_forcenter_fortexts_texts_text2">SODIMM DDR4-3200 8192MB PC4-25600</p>
+                                </div>
+                            </div>
+                            <div class="main_forblock1_block1_forproducts_product_forcenter_forbtn">
+                                <div class="main_forblock1_block1_forproducts_product_forcenter_forbtn_blockbtn">
+                                    <button idBtn="${products.id}" class="main_forblock1_block1_forproducts_product_forcenter_forbtn_blockbtn_btn btnBuy">add to cart</button>
+                                    <p class="main_forblock1_block1_forproducts_product_forcenter_forbtn_blockbtn_text">899 UAH</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main_forblock1_block1_forproducts_product">
+                        <div class="main_forblock1_block1_forproducts_product_forcenter">
+                            <div class="main_forblock1_block1_forproducts_product_forcenter_forimg">
+                                <img id="ImgContent" class="main_forblock1_block1_forproducts_product_forcenter_forimg_img" src="{{ url_for('static', filename='img/component1 1.png') }}" alt="ram ddr4">
+                            </div>
+                            <div class="main_forblock1_block1_forproducts_product_forcenter_fortexts">
+                                <div class="main_forblock1_block1_forproducts_product_forcenter_fortexts_texts">
+                                    <p id="textContent" class="main_forblock1_block1_forproducts_product_forcenter_fortexts_texts_text1">Ram DDR4</p>
+                                    <p class="main_forblock1_block1_forproducts_product_forcenter_fortexts_texts_text2">SODIMM DDR4-3200 8192MB PC4-25600</p>
+                                </div>
+                            </div>
+                            <div class="main_forblock1_block1_forproducts_product_forcenter_forbtn">
+                                <div class="main_forblock1_block1_forproducts_product_forcenter_forbtn_blockbtn">
+                                    <button idBtn="${products.id}" class="main_forblock1_block1_forproducts_product_forcenter_forbtn_blockbtn_btn btnBuy">add to cart</button>
+                                    <p class="main_forblock1_block1_forproducts_product_forcenter_forbtn_blockbtn_text">899 UAH</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main_forblock1_block1_forproducts_product">
+                        <div class="main_forblock1_block1_forproducts_product_forcenter">
+                            <div class="main_forblock1_block1_forproducts_product_forcenter_forimg">
+                                <img id="ImgContent" class="main_forblock1_block1_forproducts_product_forcenter_forimg_img" src="{{ url_for('static', filename='img/component1 1.png') }}" alt="ram ddr4">
+                            </div>
+                            <div class="main_forblock1_block1_forproducts_product_forcenter_fortexts">
+                                <div class="main_forblock1_block1_forproducts_product_forcenter_fortexts_texts">
+                                    <p id="textContent" class="main_forblock1_block1_forproducts_product_forcenter_fortexts_texts_text1">Ram DDR4</p>
+                                    <p class="main_forblock1_block1_forproducts_product_forcenter_fortexts_texts_text2">SODIMM DDR4-3200 8192MB PC4-25600</p>
+                                </div>
+                            </div>
+                            <div class="main_forblock1_block1_forproducts_product_forcenter_forbtn">
+                                <div class="main_forblock1_block1_forproducts_product_forcenter_forbtn_blockbtn">
+                                    <button idBtn="${products.id}" class="main_forblock1_block1_forproducts_product_forcenter_forbtn_blockbtn_btn btnBuy">add to cart</button>
+                                    <p class="main_forblock1_block1_forproducts_product_forcenter_forbtn_blockbtn_text">899 UAH</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main_forblock1_block1_forproducts_product">
+                        <div class="main_forblock1_block1_forproducts_product_forcenter">
+                            <div class="main_forblock1_block1_forproducts_product_forcenter_forimg">
+                                <img id="ImgContent" class="main_forblock1_block1_forproducts_product_forcenter_forimg_img" src="{{ url_for('static', filename='img/component1 1.png') }}" alt="ram ddr4">
+                            </div>
+                            <div class="main_forblock1_block1_forproducts_product_forcenter_fortexts">
+                                <div class="main_forblock1_block1_forproducts_product_forcenter_fortexts_texts">
+                                    <p id="textContent" class="main_forblock1_block1_forproducts_product_forcenter_fortexts_texts_text1">Ram DDR4</p>
+                                    <p class="main_forblock1_block1_forproducts_product_forcenter_fortexts_texts_text2">SODIMM DDR4-3200 8192MB PC4-25600</p>
+                                </div>
+                            </div>
+                            <div class="main_forblock1_block1_forproducts_product_forcenter_forbtn">
+                                <div class="main_forblock1_block1_forproducts_product_forcenter_forbtn_blockbtn">
+                                    <button idBtn="${products.id}" class="main_forblock1_block1_forproducts_product_forcenter_forbtn_blockbtn_btn btnBuy">add to cart</button>
+                                    <p class="main_forblock1_block1_forproducts_product_forcenter_forbtn_blockbtn_text">899 UAH</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main_forblock1_block1_forproducts_product">
+                        <div class="main_forblock1_block1_forproducts_product_forcenter">
+                            <div class="main_forblock1_block1_forproducts_product_forcenter_forimg">
+                                <img id="ImgContent" class="main_forblock1_block1_forproducts_product_forcenter_forimg_img" src="{{ url_for('static', filename='img/component1 1.png') }}" alt="ram ddr4">
+                            </div>
+                            <div class="main_forblock1_block1_forproducts_product_forcenter_fortexts">
+                                <div class="main_forblock1_block1_forproducts_product_forcenter_fortexts_texts">
+                                    <p id="textContent" class="main_forblock1_block1_forproducts_product_forcenter_fortexts_texts_text1">Ram DDR4</p>
+                                    <p class="main_forblock1_block1_forproducts_product_forcenter_fortexts_texts_text2">SODIMM DDR4-3200 8192MB PC4-25600</p>
+                                </div>
+                            </div>
+                            <div class="main_forblock1_block1_forproducts_product_forcenter_forbtn">
+                                <div class="main_forblock1_block1_forproducts_product_forcenter_forbtn_blockbtn">
+                                    <button idBtn="${products.id}" class="main_forblock1_block1_forproducts_product_forcenter_forbtn_blockbtn_btn btnBuy">add to cart</button>
+                                    <p class="main_forblock1_block1_forproducts_product_forcenter_forbtn_blockbtn_text">899 UAH</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main_forblock1_block1_forproducts_product">
+                        <div class="main_forblock1_block1_forproducts_product_forcenter">
+                            <div class="main_forblock1_block1_forproducts_product_forcenter_forimg">
+                                <img id="ImgContent" class="main_forblock1_block1_forproducts_product_forcenter_forimg_img" src="{{ url_for('static', filename='img/component1 1.png') }}" alt="ram ddr4">
+                            </div>
+                            <div class="main_forblock1_block1_forproducts_product_forcenter_fortexts">
+                                <div class="main_forblock1_block1_forproducts_product_forcenter_fortexts_texts">
+                                    <p id="textContent" class="main_forblock1_block1_forproducts_product_forcenter_fortexts_texts_text1">Ram DDR4</p>
+                                    <p class="main_forblock1_block1_forproducts_product_forcenter_fortexts_texts_text2">SODIMM DDR4-3200 8192MB PC4-25600</p>
+                                </div>
+                            </div>
+                            <div class="main_forblock1_block1_forproducts_product_forcenter_forbtn">
+                                <div class="main_forblock1_block1_forproducts_product_forcenter_forbtn_blockbtn">
+                                    <button idBtn="${products.id}" class="main_forblock1_block1_forproducts_product_forcenter_forbtn_blockbtn_btn btnBuy">add to cart</button>
+                                    <p class="main_forblock1_block1_forproducts_product_forcenter_forbtn_blockbtn_text">899 UAH</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main_forline">
+            <div class="main_forline_line"></div>
+        </div>
+        <div id="Accessories" class="main_forblock1">
+            <div class="main_forblock1_block1">
+                <p class="main_forblock1_block1_text">Аксесуари</p>
+                <div id="productBlock" class="main_forblock1_block1_forproducts">
+                    <div class="main_forblock1_block1_forproducts_product">
+                        <div class="main_forblock1_block1_forproducts_product_forcenter">
+                            <div class="main_forblock1_block1_forproducts_product_forcenter_forimg">
+                                <img id="ImgContent" class="main_forblock1_block1_forproducts_product_forcenter_forimg_img" src="{{ url_for('static', filename='img/component1 1.png') }}" alt="ram ddr4">
+                            </div>
+                            <div class="main_forblock1_block1_forproducts_product_forcenter_fortexts">
+                                <div class="main_forblock1_block1_forproducts_product_forcenter_fortexts_texts">
+                                    <p id="textContent" class="main_forblock1_block1_forproducts_product_forcenter_fortexts_texts_text1">Ram DDR4</p>
+                                    <p class="main_forblock1_block1_forproducts_product_forcenter_fortexts_texts_text2">SODIMM DDR4-3200 8192MB PC4-25600</p>
+                                </div>
+                            </div>
+                            <div class="main_forblock1_block1_forproducts_product_forcenter_forbtn">
+                                <div class="main_forblock1_block1_forproducts_product_forcenter_forbtn_blockbtn">
+                                    <button idBtn="${products.id}" class="main_forblock1_block1_forproducts_product_forcenter_forbtn_blockbtn_btn btnBuy">add to cart</button>
+                                    <p class="main_forblock1_block1_forproducts_product_forcenter_forbtn_blockbtn_text">899 UAH</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main_forblock1_block1_forproducts_product">
+                        <div class="main_forblock1_block1_forproducts_product_forcenter">
+                            <div class="main_forblock1_block1_forproducts_product_forcenter_forimg">
+                                <img id="ImgContent" class="main_forblock1_block1_forproducts_product_forcenter_forimg_img" src="{{ url_for('static', filename='img/component1 1.png') }}" alt="ram ddr4">
+                            </div>
+                            <div class="main_forblock1_block1_forproducts_product_forcenter_fortexts">
+                                <div class="main_forblock1_block1_forproducts_product_forcenter_fortexts_texts">
+                                    <p id="textContent" class="main_forblock1_block1_forproducts_product_forcenter_fortexts_texts_text1">Ram DDR4</p>
+                                    <p class="main_forblock1_block1_forproducts_product_forcenter_fortexts_texts_text2">SODIMM DDR4-3200 8192MB PC4-25600</p>
+                                </div>
+                            </div>
+                            <div class="main_forblock1_block1_forproducts_product_forcenter_forbtn">
+                                <div class="main_forblock1_block1_forproducts_product_forcenter_forbtn_blockbtn">
+                                    <button idBtn="${products.id}" class="main_forblock1_block1_forproducts_product_forcenter_forbtn_blockbtn_btn btnBuy">add to cart</button>
+                                    <p class="main_forblock1_block1_forproducts_product_forcenter_forbtn_blockbtn_text">899 UAH</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main_forblock1_block1_forproducts_product">
+                        <div class="main_forblock1_block1_forproducts_product_forcenter">
+                            <div class="main_forblock1_block1_forproducts_product_forcenter_forimg">
+                                <img id="ImgContent" class="main_forblock1_block1_forproducts_product_forcenter_forimg_img" src="{{ url_for('static', filename='img/component1 1.png') }}" alt="ram ddr4">
+                            </div>
+                            <div class="main_forblock1_block1_forproducts_product_forcenter_fortexts">
+                                <div class="main_forblock1_block1_forproducts_product_forcenter_fortexts_texts">
+                                    <p id="textContent" class="main_forblock1_block1_forproducts_product_forcenter_fortexts_texts_text1">Ram DDR4</p>
+                                    <p class="main_forblock1_block1_forproducts_product_forcenter_fortexts_texts_text2">SODIMM DDR4-3200 8192MB PC4-25600</p>
+                                </div>
+                            </div>
+                            <div class="main_forblock1_block1_forproducts_product_forcenter_forbtn">
+                                <div class="main_forblock1_block1_forproducts_product_forcenter_forbtn_blockbtn">
+                                    <button idBtn="${products.id}" class="main_forblock1_block1_forproducts_product_forcenter_forbtn_blockbtn_btn btnBuy">add to cart</button>
+                                    <p class="main_forblock1_block1_forproducts_product_forcenter_forbtn_blockbtn_text">899 UAH</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main_forblock1_block1_forproducts_product">
+                        <div class="main_forblock1_block1_forproducts_product_forcenter">
+                            <div class="main_forblock1_block1_forproducts_product_forcenter_forimg">
+                                <img id="ImgContent" class="main_forblock1_block1_forproducts_product_forcenter_forimg_img" src="{{ url_for('static', filename='img/component1 1.png') }}" alt="ram ddr4">
+                            </div>
+                            <div class="main_forblock1_block1_forproducts_product_forcenter_fortexts">
+                                <div class="main_forblock1_block1_forproducts_product_forcenter_fortexts_texts">
+                                    <p id="textContent" class="main_forblock1_block1_forproducts_product_forcenter_fortexts_texts_text1">Ram DDR4</p>
+                                    <p class="main_forblock1_block1_forproducts_product_forcenter_fortexts_texts_text2">SODIMM DDR4-3200 8192MB PC4-25600</p>
+                                </div>
+                            </div>
+                            <div class="main_forblock1_block1_forproducts_product_forcenter_forbtn">
+                                <div class="main_forblock1_block1_forproducts_product_forcenter_forbtn_blockbtn">
+                                    <button idBtn="${products.id}" class="main_forblock1_block1_forproducts_product_forcenter_forbtn_blockbtn_btn btnBuy">add to cart</button>
+                                    <p class="main_forblock1_block1_forproducts_product_forcenter_forbtn_blockbtn_text">899 UAH</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main_forblock1_block1_forproducts_product">
+                        <div class="main_forblock1_block1_forproducts_product_forcenter">
+                            <div class="main_forblock1_block1_forproducts_product_forcenter_forimg">
+                                <img id="ImgContent" class="main_forblock1_block1_forproducts_product_forcenter_forimg_img" src="{{ url_for('static', filename='img/component1 1.png') }}" alt="ram ddr4">
+                            </div>
+                            <div class="main_forblock1_block1_forproducts_product_forcenter_fortexts">
+                                <div class="main_forblock1_block1_forproducts_product_forcenter_fortexts_texts">
+                                    <p id="textContent" class="main_forblock1_block1_forproducts_product_forcenter_fortexts_texts_text1">Ram DDR4</p>
+                                    <p class="main_forblock1_block1_forproducts_product_forcenter_fortexts_texts_text2">SODIMM DDR4-3200 8192MB PC4-25600</p>
+                                </div>
+                            </div>
+                            <div class="main_forblock1_block1_forproducts_product_forcenter_forbtn">
+                                <div class="main_forblock1_block1_forproducts_product_forcenter_forbtn_blockbtn">
+                                    <button idBtn="${products.id}" class="main_forblock1_block1_forproducts_product_forcenter_forbtn_blockbtn_btn btnBuy">add to cart</button>
+                                    <p class="main_forblock1_block1_forproducts_product_forcenter_forbtn_blockbtn_text">899 UAH</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main_forblock1_block1_forproducts_product">
+                        <div class="main_forblock1_block1_forproducts_product_forcenter">
+                            <div class="main_forblock1_block1_forproducts_product_forcenter_forimg">
+                                <img id="ImgContent" class="main_forblock1_block1_forproducts_product_forcenter_forimg_img" src="{{ url_for('static', filename='img/component1 1.png') }}" alt="ram ddr4">
+                            </div>
+                            <div class="main_forblock1_block1_forproducts_product_forcenter_fortexts">
+                                <div class="main_forblock1_block1_forproducts_product_forcenter_fortexts_texts">
+                                    <p id="textContent" class="main_forblock1_block1_forproducts_product_forcenter_fortexts_texts_text1">Ram DDR4</p>
+                                    <p class="main_forblock1_block1_forproducts_product_forcenter_fortexts_texts_text2">SODIMM DDR4-3200 8192MB PC4-25600</p>
+                                </div>
+                            </div>
+                            <div class="main_forblock1_block1_forproducts_product_forcenter_forbtn">
+                                <div class="main_forblock1_block1_forproducts_product_forcenter_forbtn_blockbtn">
+                                    <button idBtn="${products.id}" class="main_forblock1_block1_forproducts_product_forcenter_forbtn_blockbtn_btn btnBuy">add to cart</button>
+                                    <p class="main_forblock1_block1_forproducts_product_forcenter_forbtn_blockbtn_text">899 UAH</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+{% endblock %}
