@@ -36,6 +36,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    column-gap: 15px;
 }
 
 .main_forblock_block_btn {
