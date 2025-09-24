@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Electro-life{% endblock %}</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="./static/favicEcletrolife/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./static/favicEcletrolife/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./static/favicEcletrolife/favicon-16x16.png">
+    <link rel="manifest" href="./static/favicEcletrolife/site.webmanifest">
+    <link rel="mask-icon" href="./static/favicEcletrolife/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/reset.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/base2.css') }}">
+    {% block extra_css %}{% endblock %}
+</head>
+<body>
+    <header class="header">
+        <div class="header_forhead">
+            <div class="header_forhead_head">
+                <div class="header_forhead_head_logo">
+                    <svg width="36.000000" height="32.000000" viewBox="0 0 36 32" fill="none"
+                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <defs />
+                        <path id="Vector" d="M0 1.41L35.86 1.41L35.86 31.52L0 31.52L0 1.41Z" fill="#4A89DC"
+                            fill-opacity="1.000000" fill-rule="evenodd" />
+                        <path id="Vector"
+                            d="M33.62 -0.85C33.2 -0.85 32.87 -0.51 32.87 -0.1C32.87 0.32 33.2 0.66 33.62 0.66C34.03 0.66 34.36 0.32 34.36 -0.1C34.36 -0.51 34.03 -0.85 33.62 -0.85Z"
+                            fill="#434A54" fill-opacity="1.000000" fill-rule="nonzero" />
+                        <path id="Vector"
+                            d="M21.66 -0.85L20.17 -0.85C19.76 -0.85 19.42 -0.51 19.42 -0.1C19.42 0.32 19.76 0.66 20.17 0.66L21.66 0.66C22.08 0.66 22.41 0.32 22.41 -0.1C22.41 -0.51 22.08 -0.85 21.66 -0.85Z"
+                            fill="#434A54" fill-opacity="1.000000" fill-rule="nonzero" />
+                        <path id="Vector"
+                            d="M26.15 -0.85L24.65 -0.85C24.24 -0.85 23.9 -0.51 23.9 -0.1C23.9 0.32 24.24 0.66 24.65 0.66L26.15 0.66C26.56 0.66 26.89 0.32 26.89 -0.1C26.89 -0.51 26.56 -0.85 26.15 -0.85Z"
+                            fill="#434A54" fill-opacity="1.000000" fill-rule="nonzero" />
+                        <path id="Vector"
+                            d="M30.63 -0.85L29.13 -0.85C28.72 -0.85 28.39 -0.51 28.39 -0.1C28.39 0.32 28.72 0.66 29.13 0.66L30.63 0.66C31.04 0.66 31.38 0.32 31.38 -0.1C31.38 -0.51 31.04 -0.85 30.63 -0.85Z"
+                            fill="#434A54" fill-opacity="1.000000" fill-rule="nonzero" />
+                        <path id="Vector" d="M0 -0.1L35.86 -0.1L35.86 30.02L0 30.02L0 -0.1Z" fill="#5D9CEC"
+                            fill-opacity="1.000000" fill-rule="evenodd" />
+                        <path id="Vector" d="M3.73 3.67L6.72 3.67L6.72 6.68L3.73 6.68L3.73 3.67Z" fill="#656D78"
+                            fill-opacity="1.000000" fill-rule="evenodd" />
+                        <path id="Vector"
+                            d="M2.98 2.92L2.98 7.43L7.47 7.43L7.47 2.92L2.98 2.92ZM5.97 5.93L4.48 5.93L4.48 4.42L5.97 4.42L5.97 5.93Z"
+                            fill="#434A54" fill-opacity="1.000000" fill-rule="nonzero" />
+                        <path id="Vector"
+                            d="M5.97 26.25C5.04 26.25 4.41 25.91 4.05 25.2C3.74 24.62 3.73 24 3.73 23.99L3.73 21.74L15.69 21.74L15.69 26.25L5.97 26.25Z"
+                            fill="#E6E9ED" fill-opacity="1.000000" fill-rule="nonzero" />
+                        <path id="Vector"
+                            d="M2.98 20.98L2.98 23.99C2.98 23.99 2.98 27 5.97 27C8.96 27 16.43 27 16.43 27L16.43 20.98L2.98 20.98ZM14.94 25.5L5.97 25.5C5.17 25.5 4.89 25.19 4.72 24.88C4.53 24.54 4.48 24.12 4.48 23.98L4.48 22.49L14.94 22.49L14.94 25.5Z"
+                            fill="#CACFD7" fill-opacity="1.000000" fill-rule="nonzero" />
+                        <path id="Vector"
+                            d="M3.73 8.94C3.32 8.94 2.98 9.28 2.98 9.69L2.98 18.72C2.98 19.14 3.32 19.48 3.73 19.48C4.14 19.48 4.48 19.14 4.48 18.72L4.48 9.69C4.48 9.28 4.14 8.94 3.73 8.94Z"
+                            fill="#434A54" fill-opacity="1.000000" fill-rule="nonzero" />
+                        <path id="Vector"
+                            d="M6.72 8.94C6.31 8.94 5.97 9.28 5.97 9.69L5.97 18.72C5.97 19.14 6.31 19.48 6.72 19.48C7.13 19.48 7.47 19.14 7.47 18.72L7.47 9.69C7.47 9.28 7.13 8.94 6.72 8.94Z"
+                            fill="#434A54" fill-opacity="1.000000" fill-rule="nonzero" />
+                        <path id="Vector"
+                            d="M15.69 8.94C15.27 8.94 14.94 9.28 14.94 9.69L14.94 18.72C14.94 19.14 15.27 19.48 15.69 19.48C16.1 19.48 16.43 19.14 16.43 18.72L16.43 9.69C16.43 9.28 16.1 8.94 15.69 8.94Z"
+                            fill="#434A54" fill-opacity="1.000000" fill-rule="nonzero" />
+                        <path id="Vector"
+                            d="M12.7 8.94C12.28 8.94 11.95 9.28 11.95 9.69L11.95 18.72C11.95 19.14 12.28 19.48 12.7 19.48C13.11 19.48 13.44 19.14 13.44 18.72L13.44 9.69C13.44 9.28 13.11 8.94 12.7 8.94Z"
+                            fill="#434A54" fill-opacity="1.000000" fill-rule="nonzero" />
+                        <path id="Vector"
+                            d="M32.12 25.5L18.67 25.5C18.26 25.5 17.93 25.84 17.93 26.25C17.93 26.67 18.26 27 18.67 27L32.12 27C32.54 27 32.87 26.67 32.87 26.25C32.87 25.84 32.54 25.5 32.12 25.5Z"
+                            fill="#434A54" fill-opacity="1.000000" fill-rule="nonzero" />
+                        <path id="Vector"
+                            d="M18.67 23.99L32.12 23.99C32.54 23.99 32.87 23.66 32.87 23.24C32.87 22.83 32.54 22.49 32.12 22.49L18.67 22.49C18.26 22.49 17.93 22.83 17.93 23.24C17.93 23.66 18.26 23.99 18.67 23.99Z"
+                            fill="#434A54" fill-opacity="1.000000" fill-rule="nonzero" />
+                        <path id="Vector"
+                            d="M32.12 5.93L18.67 5.93C18.26 5.93 17.93 6.26 17.93 6.68C17.93 7.1 18.26 7.43 18.67 7.43L32.12 7.43C32.54 7.43 32.87 7.1 32.87 6.68C32.87 6.26 32.54 5.93 32.12 5.93Z"
+                            fill="#434A54" fill-opacity="1.000000" fill-rule="nonzero" />
+                        <path id="Vector"
+                            d="M18.67 4.42L32.12 4.42C32.54 4.42 32.87 4.09 32.87 3.67C32.87 3.25 32.54 2.92 32.12 2.92L18.67 2.92C18.26 2.92 17.93 3.25 17.93 3.67C17.93 4.09 18.26 4.42 18.67 4.42Z"
+                            fill="#434A54" fill-opacity="1.000000" fill-rule="nonzero" />
+                        <path id="Vector" d="M32.12 9.69L35.11 9.69L35.11 20.23L32.12 20.23L32.12 9.69Z" fill="#E6E9ED"
+                            fill-opacity="1.000000" fill-rule="evenodd" />
+                        <path id="Vector"
+                            d="M31.38 8.94L31.38 20.98L35.86 20.98L35.86 8.94L31.38 8.94ZM34.36 19.48L32.87 19.48L32.87 10.44L34.36 10.44L34.36 19.48Z"
+                            fill="#CACFD7" fill-opacity="1.000000" fill-rule="nonzero" />
+                        <path id="Vector"
+                            d="M34.36 11.95C34.36 12.37 34.03 12.7 33.62 12.7C33.2 12.7 32.87 12.37 32.87 11.95C32.87 11.53 33.2 11.2 33.62 11.2C34.03 11.2 34.36 11.53 34.36 11.95Z"
+                            fill="#CACFD7" fill-opacity="1.000000" fill-rule="nonzero" />
+                        <path id="Vector"
+                            d="M34.36 14.96C34.36 15.38 34.03 15.71 33.62 15.71C33.2 15.71 32.87 15.38 32.87 14.96C32.87 14.55 33.2 14.21 33.62 14.21C34.03 14.21 34.36 14.55 34.36 14.96Z"
+                            fill="#CACFD7" fill-opacity="1.000000" fill-rule="nonzero" />
+                        <path id="Vector"
+                            d="M34.36 17.97C34.36 18.39 34.03 18.72 33.62 18.72C33.2 18.72 32.87 18.39 32.87 17.97C32.87 17.56 33.2 17.22 33.62 17.22C34.03 17.22 34.36 17.56 34.36 17.97Z"
+                            fill="#CACFD7" fill-opacity="1.000000" fill-rule="nonzero" />
+                        <path id="Vector"
+                            d="M10.46 3.67C10.46 4.09 10.12 4.42 9.71 4.42C9.3 4.42 8.96 4.09 8.96 3.67C8.96 3.25 9.3 2.92 9.71 2.92C10.12 2.92 10.46 3.25 10.46 3.67Z"
+                            fill="#4A89DC" fill-opacity="1.000000" fill-rule="nonzero" />
+                        <path id="Vector"
+                            d="M13.44 6.68C13.44 7.1 13.11 7.43 12.7 7.43C12.28 7.43 11.95 7.1 11.95 6.68C11.95 6.26 12.28 5.93 12.7 5.93C13.11 5.93 13.44 6.26 13.44 6.68Z"
+                            fill="#4A89DC" fill-opacity="1.000000" fill-rule="nonzero" />
+                        <path id="Vector"
+                            d="M11.95 5.17C11.95 5.59 11.62 5.93 11.2 5.93C10.79 5.93 10.46 5.59 10.46 5.17C10.46 4.76 10.79 4.42 11.2 4.42C11.62 4.42 11.95 4.76 11.95 5.17Z"
+                            fill="#4A89DC" fill-opacity="1.000000" fill-rule="nonzero" />
+                        <path id="Vector"
+                            d="M13.44 3.67C13.44 4.09 13.11 4.42 12.7 4.42C12.28 4.42 11.95 4.09 11.95 3.67C11.95 3.25 12.28 2.92 12.7 2.92C13.11 2.92 13.44 3.25 13.44 3.67Z"
+                            fill="#4A89DC" fill-opacity="1.000000" fill-rule="nonzero" />
+                        <path id="Vector"
+                            d="M10.46 6.68C10.46 7.1 10.12 7.43 9.71 7.43C9.3 7.43 8.96 7.1 8.96 6.68C8.96 6.26 9.3 5.93 9.71 5.93C10.12 5.93 10.46 6.26 10.46 6.68Z"
+                            fill="#4A89DC" fill-opacity="1.000000" fill-rule="nonzero" />
+                        <path id="Vector"
+                            d="M16.43 6.68C16.43 7.1 16.1 7.43 15.69 7.43C15.27 7.43 14.94 7.1 14.94 6.68C14.94 6.26 15.27 5.93 15.69 5.93C16.1 5.93 16.43 6.26 16.43 6.68Z"
+                            fill="#4A89DC" fill-opacity="1.000000" fill-rule="nonzero" />
+                        <path id="Vector"
+                            d="M14.94 5.17C14.94 5.59 14.6 5.93 14.19 5.93C13.78 5.93 13.44 5.59 13.44 5.17C13.44 4.76 13.78 4.42 14.19 4.42C14.6 4.42 14.94 4.76 14.94 5.17Z"
+                            fill="#4A89DC" fill-opacity="1.000000" fill-rule="nonzero" />
+                        <path id="Vector"
+                            d="M16.43 3.67C16.43 4.09 16.1 4.42 15.69 4.42C15.27 4.42 14.94 4.09 14.94 3.67C14.94 3.25 15.27 2.92 15.69 2.92C16.1 2.92 16.43 3.25 16.43 3.67Z"
+                            fill="#4A89DC" fill-opacity="1.000000" fill-rule="nonzero" />
+                        <path id="Vector"
+                            d="M12.7 23.24L6.72 23.24C6.31 23.24 5.97 23.58 5.97 23.99C5.97 24.41 6.31 24.75 6.72 24.75L12.7 24.75C13.11 24.75 13.44 24.41 13.44 23.99C13.44 23.58 13.11 23.24 12.7 23.24Z"
+                            fill="#CACFD7" fill-opacity="1.000000" fill-rule="nonzero" />
+                        <path id="Vector" d="M18.67 9.69L29.13 9.69L29.13 20.23L18.67 20.23L18.67 9.69Z" fill="#CACFD7"
+                            fill-opacity="1.000000" fill-rule="evenodd" />
+                        <path id="Vector"
+                            d="M9.71 11.95C9.3 11.95 8.96 12.29 8.96 12.7L8.96 15.71C8.96 16.13 9.3 16.47 9.71 16.47C10.12 16.47 10.46 16.13 10.46 15.71L10.46 12.7C10.46 12.29 10.12 11.95 9.71 11.95Z"
+                            fill="#4A89DC" fill-opacity="1.000000" fill-rule="nonzero" />
+                        <path id="Vector"
+                            d="M9.71 10.44C10.12 10.44 10.46 10.11 10.46 9.69C10.46 9.28 10.12 8.94 9.71 8.94C9.3 8.94 8.96 9.28 8.96 9.69C8.96 10.11 9.3 10.44 9.71 10.44Z"
+                            fill="#4A89DC" fill-opacity="1.000000" fill-rule="nonzero" />
+                        <path id="Vector"
+                            d="M9.71 17.97C9.3 17.97 8.96 18.31 8.96 18.72C8.96 19.14 9.3 19.48 9.71 19.48C10.12 19.48 10.46 19.14 10.46 18.72C10.46 18.31 10.12 17.97 9.71 17.97Z"
+                            fill="#4A89DC" fill-opacity="1.000000" fill-rule="nonzero" />
+                        <path id="Vector"
+                            d="M23.9 20.23C21.02 20.23 18.67 17.87 18.67 14.96C18.67 12.06 21.02 9.69 23.9 9.69C26.79 9.69 29.13 12.06 29.13 14.96C29.13 17.87 26.79 20.23 23.9 20.23Z"
+                            fill="#656D78" fill-opacity="1.000000" fill-rule="nonzero" />
+                        <path id="Vector"
+                            d="M28.87 15.69L29.26 14.23C29.22 14.22 28.26 13.96 27.11 13.83C26.52 13.76 25.99 13.74 25.51 13.76C26.2 13.07 27.17 12.37 27.92 11.94L27.18 10.63C27.15 10.65 26.29 11.15 25.38 11.87C24.91 12.25 24.52 12.61 24.2 12.97C24.2 12.65 24.22 12.3 24.26 11.92C24.38 10.88 24.62 9.98 24.62 9.96L23.9 9.76L23.18 9.56C23.17 9.6 22.91 10.57 22.78 11.73C22.71 12.32 22.69 12.86 22.71 13.34C22.02 12.64 21.33 11.67 20.9 10.91L19.61 11.66C19.63 11.69 20.12 12.56 20.84 13.48C21.21 13.94 21.57 14.34 21.93 14.66C21.61 14.66 21.26 14.64 20.88 14.6C19.84 14.48 18.95 14.24 18.94 14.23L18.74 14.96L18.94 14.23L18.55 15.69C18.59 15.7 19.54 15.96 20.7 16.09C21.13 16.14 21.54 16.17 21.91 16.17C22.04 16.17 22.17 16.17 22.29 16.16C21.6 16.85 20.64 17.55 19.89 17.98L20.26 18.64L20.63 19.29C20.66 19.27 21.52 18.77 22.43 18.05C22.89 17.68 23.29 17.31 23.61 16.95C23.61 17.27 23.59 17.62 23.55 18C23.43 19.05 23.19 19.95 23.18 19.96L24.62 20.36C24.64 20.32 24.9 19.35 25.03 18.19C25.1 17.6 25.12 17.06 25.09 16.58C25.78 17.28 26.47 18.25 26.9 19.01L28.2 18.26C28.18 18.23 27.69 17.36 26.97 16.45C26.6 15.98 26.24 15.58 25.88 15.26C26.2 15.26 26.55 15.28 26.92 15.32C27.97 15.44 28.86 15.68 28.87 15.69Z"
+                            fill="#434A54" fill-opacity="1.000000" fill-rule="nonzero" />
+                        <path id="Vector"
+                            d="M23.9 16.47C23.08 16.47 22.41 15.79 22.41 14.96C22.41 14.13 23.08 13.45 23.9 13.45C24.73 13.45 25.4 14.13 25.4 14.96C25.4 15.79 24.73 16.47 23.9 16.47Z"
+                            fill="#CCD1D9" fill-opacity="1.000000" fill-rule="nonzero" />
+                        <path id="Vector"
+                            d="M23.9 12.7C22.67 12.7 21.66 13.71 21.66 14.96C21.66 16.21 22.67 17.22 23.9 17.22C25.14 17.22 26.15 16.21 26.15 14.96C26.15 13.71 25.14 12.7 23.9 12.7ZM23.9 15.71C23.49 15.71 23.16 15.38 23.16 14.96C23.16 14.55 23.49 14.21 23.9 14.21C24.32 14.21 24.65 14.55 24.65 14.96C24.65 15.38 24.32 15.71 23.9 15.71Z"
+                            fill="#E6E9ED" fill-opacity="1.000000" fill-rule="nonzero" />
+                        <path id="Vector"
+                            d="M23.9 8.94C20.6 8.94 17.93 11.63 17.93 14.96C17.93 18.29 20.6 20.98 23.9 20.98C27.21 20.98 29.88 18.29 29.88 14.96C29.88 11.63 27.21 8.94 23.9 8.94ZM23.9 19.48C21.43 19.48 19.42 17.45 19.42 14.96C19.42 12.47 21.43 10.44 23.9 10.44C26.38 10.44 28.39 12.47 28.39 14.96C28.39 17.45 26.38 19.48 23.9 19.48Z"
+                            fill="#434A54" fill-opacity="1.000000" fill-rule="nonzero" />
+                    </svg>
+                    <p class="header_forhead_head_logo_logoText">Electro-Life</p>
+                </div>
+                <nav class="header_forhead_head_nav">
+                    <ul class="header_forhead_head_nav_ul">
+                        <li class="header_forhead_head_nav_ul_li">
+                            <a href="#DetalPC" class="header_forhead_head_nav_ul_li_a">Комплектуючі</a>
+                        </li>
+                        <li class="header_forhead_head_nav_ul_li">
+                            <a href="#NewPC" class="header_forhead_head_nav_ul_li_a">Готові ПК</a>
+                        </li>
+                        <li class="header_forhead_head_nav_ul_li">
+                            <a href="#RaspberryPi" class="header_forhead_head_nav_ul_li_a">Raspberry Pi</a>
+                        </li>
+                        <li class="header_forhead_head_nav_ul_li">
+                            <a href="#Accessories" class="header_forhead_head_nav_ul_li_a">Аксесуари</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="header_forhead_head_forbtn">
+                    <div class="header_forhead_head_forbtn_divbtn">
+                        <button class="header_forhead_head_forbtn_divbtn_btn" id="basket">
+                            <svg width="25" height="31" viewBox="0 0 25 31" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M3.125 31C2.26562 31 1.52995 30.6965 0.917969 30.0894C0.30599 29.4823 0 28.7525 0 27.9V9.3C0 8.4475 0.30599 7.71771 0.917969 7.11063C1.52995 6.50354 2.26562 6.2 3.125 6.2H6.25C6.25 4.495 6.86198 3.03542 8.08594 1.82125C9.3099 0.607083 10.7812 0 12.5 0C14.2188 0 15.6901 0.607083 16.9141 1.82125C18.138 3.03542 18.75 4.495 18.75 6.2H21.875C22.7344 6.2 23.4701 6.50354 24.082 7.11063C24.694 7.71771 25 8.4475 25 9.3V27.9C25 28.7525 24.694 29.4823 24.082 30.0894C23.4701 30.6965 22.7344 31 21.875 31H3.125ZM3.125 27.9H21.875V9.3H18.75V12.4C18.75 12.8392 18.6003 13.2073 18.3008 13.5044C18.0013 13.8015 17.6302 13.95 17.1875 13.95C16.7448 13.95 16.3737 13.8015 16.0742 13.5044C15.7747 13.2073 15.625 12.8392 15.625 12.4V9.3H9.375V12.4C9.375 12.8392 9.22526 13.2073 8.92578 13.5044C8.6263 13.8015 8.25521 13.95 7.8125 13.95C7.36979 13.95 6.9987 13.8015 6.69922 13.5044C6.39974 13.2073 6.25 12.8392 6.25 12.4V9.3H3.125V27.9ZM9.375 6.2H15.625C15.625 5.3475 15.319 4.61771 14.707 4.01062C14.0951 3.40354 13.3594 3.1 12.5 3.1C11.6406 3.1 10.9049 3.40354 10.293 4.01062C9.68099 4.61771 9.375 5.3475 9.375 6.2Z"
+                                    fill="black" />
+                            </svg>
+                        </button>
+                        <button class="header_forhead_head_forbtn_divbtn_btn2" id="basket">
+                            <svg
+                                width="35"
+                                height="33"
+                                viewBox="0 0 35 33"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                                class="w-[35px] h-[33px] relative"
+                                preserveAspectRatio="none"
+                                >
+                                <path
+                                    d="M17.5 14.4375C21.1244 14.4375 24.0625 11.6673 24.0625 8.25C24.0625 4.83275 21.1244 2.0625 17.5 2.0625C13.8756 2.0625 10.9375 4.83275 10.9375 8.25C10.9375 11.6673 13.8756 14.4375 17.5 14.4375Z"
+                                    fill="black"
+                                ></path>
+                                <path
+                                    d="M30.625 24.75C30.625 21.3326 27.687 18.5625 24.0625 18.5625H10.9375C7.31314 18.5625 4.375 21.3326 4.375 24.75V30.9375H30.625V24.75Z"
+                                    fill="black"
+                                ></path>
+                            </svg>
+                        </button>
+                    </div>
+                    <div id="DivCount" class="header_forhead_head_forbtn_circle">
+                        <p id="CounterText" class="header_forhead_head_forbtn_circle_p">1</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        {%block main%}{% endblock %}
+    </main>
+</body>
+</html>

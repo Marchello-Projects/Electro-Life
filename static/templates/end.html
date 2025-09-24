@@ -1,0 +1,29 @@
+{% extends "base2.html" %}
+
+{% block title %}Electro-Life (End Page){% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/end.css') }}">
+{% endblock %}
+
+{% block main %}
+    <div class="main_forline">
+        <div class="main_forline_line"></div>
+    </div>
+    <div class="main_forblock">
+        <div id="ZakazBlock" class="main_forblock_block">
+               <h1 class="main_forblock_block_text1">Дякуємо за замовлення!</h1>
+        </div>
+    </div>
+    <div class="main_forblock">
+        <div id="ZakazBlock" class="main_forblock_block">
+               <h1 class="main_forblock_block_text2">Ваш код замовлення - 138267510</h1>
+        </div>
+    </div>
+    <div class="centerButton">
+        <button class="main_forblock_block_btn" id="back">На головну</button>
+    </div>
+    <div class="main_forline">
+        <div class="main_forline_line"></div>
+    </div>
+{% endblock %}
