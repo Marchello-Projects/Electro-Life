@@ -1,0 +1,131 @@
+.main {
+    width: calc(100% - 40px);
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 25px 20px;
+}
+
+.main_forblock1 {
+    display: flex;
+    justify-content: center;
+}
+
+.main_forblock1_block1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1300px;
+    column-gap: 75px;
+    margin-top: 25px;
+}
+
+.main_forblock1_block1_bl_text1 {
+    color: #000000;
+    font-family: "Montserrat";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.main_forblock1_block1_bl_text2 {
+    color: rgb(114, 108, 108);
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 5px;
+}
+
+.main_forblock1_block1_bl_forbtns {
+    margin-top: 38px;
+}
+
+.main_forblock1_block1_bl_forbtns_btn1,
+.main_forblock1_block1_bl_forbtns_btn2 {
+    width: 84px;
+    height: 30px;
+    border: 1px solid rgb(74, 137, 220);
+    border-radius: 3px;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-family: "Montserrat";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    cursor: pointer;
+    transition-duration: 0.6s;
+}
+
+.main_forblock1_block1_bl_forbtns_btn1:hover,
+.main_forblock1_block1_bl_forbtns_btn2:hover {
+    transition-duration: 0.6s;
+    background: rgb(74, 137, 220);
+    color: rgb(255, 255, 255);
+}
+
+.main_forline {
+    display: flex;
+    justify-content: center;
+}
+
+.main_forline_line {
+    width: 1300px;
+    height: 1px;
+    background: rgb(217, 217, 217);
+    margin-top: 44px;
+}
+
+.main_forblock2 {
+    display: flex;
+    justify-content: center;
+}
+
+.main_forblock2_block2 {
+    width: 1300px;
+    height: 192px;
+    margin-top: 38px;
+}
+
+.main_forblock2_block2_text {
+    color: #000000;
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.main_forblock2_block2_table {
+    width: 480px;
+    height: 156px;
+    border: 1px solid rgb(204, 209, 217);
+    margin-top: 18px;
+}
+
+.main_forblock2_block2_table_trg {
+    background: rgb(244, 244, 244);
+}
+
+.main_forblock2_block2_table_trg_td,
+.main_forblock2_block2_table_tr_td {
+    border: 1px solid rgb(204, 209, 217);
+    color: rgb(81, 81, 81);
+    font-family: "Montserrat";
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+@media screen and (max-width:450px) {
+    .main_forblock2_block2 {
+        width: 100%;
+    }
+
+    .main_forblock2_block2_table {
+        width: 100%;
+    }
+}

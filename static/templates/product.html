@@ -1,0 +1,64 @@
+{% extends "base2.html" %}
+
+{% block title %}Electro-Life (Product page){% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/product.css') }}">
+{% endblock %}
+
+{% block main %}
+<div class="main_forblock1">
+    <div class="main_forblock1_block1">
+        <img src="{{ url_for('static', filename='img/component1 1.png') }}" alt="Ram ddr4">
+        <div class="main_forblock1_block1_bl">
+            <p class="main_forblock1_block1_bl_text1">Ram ddr4</p>
+            <p class="main_forblock1_block1_bl_text2">
+                In a vast universe, whispers of dreams dance among the
+                stars, echoing the hopes of countless souls. Each dawn births new beginnings,
+                painting the canvas of existence with hues of possibility. Amidst the chaos,
+                love remains a guiding light, illuminating paths through the darkness,
+                weaving tales of resilience and wonder.
+            </p>
+            <div class="main_forblock1_block1_bl_forbtns">
+                <button class="main_forblock1_block1_bl_forbtns_btn1">add to cart</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="main_forline">
+    <div class="main_forline_line"></div>
+</div>
+
+<div class="main_forblock2">
+    <div class="main_forblock2_block2">
+        <p class="main_forblock2_block2_text">Параматри</p>
+        <table class="main_forblock2_block2_table">
+            <tr class="main_forblock2_block2_table_trg">
+                <td class="main_forblock2_block2_table_trg_td">param1</td>
+                <td class="main_forblock2_block2_table_trg_td">answer</td>
+            </tr>
+            <tr class="main_forblock2_block2_table_tr">
+                <td class="main_forblock2_block2_table_tr_td">param1</td>
+                <td class="main_forblock2_block2_table_tr_td">answer</td>
+            </tr>
+            <tr class="main_forblock2_block2_table_trg">
+                <td class="main_forblock2_block2_table_trg_td">param1</td>
+                <td class="main_forblock2_block2_table_trg_td">answer</td>
+            </tr>
+            <tr class="main_forblock2_block2_table_tr">
+                <td class="main_forblock2_block2_table_tr_td">param1</td>
+                <td class="main_forblock2_block2_table_tr_td">answer</td>
+            </tr>
+            <tr class="main_forblock2_block2_table_trg">
+                <td class="main_forblock2_block2_table_trg_td">param1</td>
+                <td class="main_forblock2_block2_table_trg_td">answer</td>
+            </tr>
+            <tr class="main_forblock2_block2_table_tr">
+                <td class="main_forblock2_block2_table_tr_td">param1</td>
+                <td class="main_forblock2_block2_table_tr_td">answer</td>
+            </tr>
+        </table>
+    </div>
+</div>
+{% endblock %}
