@@ -1,0 +1,190 @@
+.main {
+    width: calc(100% - 40px);
+    padding: 0 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 25px 0;
+}
+
+.main_forblock1 {
+    display: flex;
+    justify-content: center;
+}
+
+.main_forblock1_block1 {
+    width: 1300px;
+    margin-top: 25px;
+}
+
+.main_forblock1_block1_text {
+    color: rgb(0, 0, 0);
+    font-family: "Montserrat";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.main_forblock1_block1_forproducts {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 18px;
+    width: 100%;
+    column-gap: 15px;
+    row-gap: 15px;
+}
+
+.main_forblock1_block1_forproducts_product {
+    position: relative;
+    width: 198px;
+    height: 268px;
+    border: 1px solid rgb(211, 216, 224);
+    border-radius: 6px;
+    box-shadow: 0px 0px 11.7px -4px rgba(0, 0, 0, 0.25);
+    background: rgb(255, 255, 255);
+}
+
+.main_forblock1_block1_forproducts_product_svg {
+    position: absolute;
+    border: none;
+    background: none;
+    cursor: pointer;
+    top: 5px;
+    right: 5px;
+}
+
+.main_forblock1_block1_forproducts_product_forimg {
+    display: flex;
+    justify-content: center;
+}
+
+.main_forblock1_block1_forproducts_product_forimg_img {
+    margin-top: 13px;
+}
+
+.main_forblock1_block1_forproducts_product_fortexts {
+    display: flex;
+    justify-content: center;
+}
+
+.main_forblock1_block1_forproducts_product_fortexts_texts {
+    margin-top: 15px;
+    width: 90%;
+}
+
+.main_forblock1_block1_forproducts_product_fortexts_texts_text1 {
+    color: rgb(0, 0, 0);
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 100%;
+}
+
+.main_forblock1_block1_forproducts_product_fortexts_texts_text2 {
+    color: rgb(114, 108, 108);
+    font-family: "Montserrat";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 100%;
+}
+
+.main_forblock1_block1_forproducts_product_forbtn {
+    display: flex;
+    justify-content: center;
+}
+
+.main_forblock1_block1_forproducts_product_forbtn_blockbtn {
+    margin-top: 20px;
+    column-gap: 40px;
+    width: 90%;
+}
+
+.main_forblock1_block1_forproducts_product_forbtn_blockbtn_btn {
+    width: 77px;
+    height: 24px;
+    border-radius: 3px;
+    background: rgb(101, 109, 120);
+    color: rgb(255, 255, 255);
+    font-family: "Montserrat";
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: none;
+    transition-duration: 0.6s;
+    cursor: pointer;
+}
+
+.main_forblock1_block1_forproducts_product_forbtn_blockbtn_btn:hover {
+    transition-duration: 0.6s;
+    background: #5D9CEC;
+}
+
+.main_forblock1_block1_forproducts_product_forbtn_blockbtn_text {
+    color: rgb(114, 108, 108);
+    font-family: "Montserrat";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.main_forline {
+    display: flex;
+    justify-content: center;
+}
+
+.main_forline_line {
+    width: 1300px;
+    height: 1px;
+    background: rgb(217, 217, 217);
+    margin-top: 44px;
+}
+
+.main_forbtn {
+    display: flex;
+    justify-content: center;
+}
+
+.main_forbtn_blockbtn {
+    width: 1300px;
+    height: 31px;
+    margin-top: 36px;
+}
+
+.main_forbtn_blockbtn_btn {
+    width: 151px;
+    height: 30.08px;
+    border: 1px solid rgb(74, 137, 220);
+    border-radius: 3px;
+    background: rgb(255, 255, 255);
+    color: rgb(30, 30, 30);
+    font-family: "Montserrat";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    cursor: pointer;
+    transition-duration: 0.6s;
+}
+
+.main_forbtn_blockbtn_btn:hover {
+    transition-duration: 0.6s;
+    background: rgb(74, 137, 220);
+    color: rgb(255, 255, 255);
+}
+
+@media screen and (max-width: 400px) {
+    .main_forblock1_block1_forproducts_product {
+        width: 100%;
+    }
+
+    .main_forblock1_block1_forproducts_product_svg {
+        top: 5px;
+        right: 5px;
+    }
+}
