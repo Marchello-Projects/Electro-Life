@@ -20,6 +20,30 @@
     {% block extra_css %}{% endblock %}
 </head>
 <body>
+    <div id="modal" class="modal">
+        <div class="modal_form">
+            <div class="modal_form_fortitle">
+                <p class="modal_form_fortitle_title">Login to your account</p>
+            </div>
+            <div class="modal_form_fortitle2">
+                <p class="modal_form_fortitle2_title">Email</p>
+            </div>
+            <div class="modal_form_forinput1">
+                <input id="inpEmail" class="modal_form_forinput1_input1" type="text">
+            </div>
+            <div class="modal_form_fortitle3">
+                <p class="modal_form_fortitle3_title">Password</p>
+            </div>
+            <div class="modal_form_forinput2">
+                <input id="inpPassword" class="modal_form_forinput2_input1" type="password">
+            </div>
+            <div class="centerButtons">
+                <div class="containerOfButtons">
+                    <button id="btnRegister" class="modal_form_btnRegister">Register</button>
+                </div>
+            </div>
+        </div>
+    </div>
     <header class="header">
         <div class="header_forhead">
             <div class="header_forhead_head">
@@ -174,7 +198,7 @@
                                     fill="black" />
                             </svg>
                         </button>
-                        <button class="header_forhead_head_forbtn_divbtn_btn2" id="basket">
+                        <button class="header_forhead_head_forbtn_divbtn_btn2" id="profile">
                             <svg
                                 width="35"
                                 height="33"

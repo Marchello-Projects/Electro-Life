@@ -20,6 +20,58 @@
     {% block extra_css %}{% endblock %}
 </head>
 <body>
+    <div id="modal" class="modal">
+        <div id="modalForm" class="modal_form">
+            <button class="buttonCancel" id="buttonCancel">
+                <svg
+                width="14"
+                height="14"
+                viewBox="0 0 14 14"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                preserveAspectRatio="none"
+                >
+                <path
+                    d="M0.363607 12.3636C0.0121391 12.7151 0.0121391 13.2849 0.363607 13.6364C0.715075 13.9878 1.28493 13.9878 1.6364 13.6364L0.363607 12.3636ZM7.63636 7.63636C7.98784 7.28488 7.98784 6.71512 7.63636 6.36364C7.28488 6.01216 6.71512 6.01216 6.36364 6.36364L7.63636 7.63636ZM6.36364 6.36364C6.01216 6.71512 6.01216 7.28488 6.36364 7.63636C6.71512 7.98784 7.28488 7.98784 7.63636 7.63636L6.36364 6.36364ZM13.6364 1.6364C13.9878 1.28493 13.9878 0.715075 13.6364 0.363607C13.2849 0.0121391 12.7151 0.0121391 12.3636 0.363607L13.6364 1.6364ZM7.63636 6.36364C7.28488 6.01216 6.71512 6.01216 6.36364 6.36364C6.01216 6.71512 6.01216 7.28488 6.36364 7.63636L7.63636 6.36364ZM12.3636 13.6364C12.7151 13.9878 13.2849 13.9878 13.6364 13.6364C13.9878 13.2849 13.9878 12.7151 13.6364 12.3636L12.3636 13.6364ZM6.36364 7.63636C6.71512 7.98784 7.28488 7.98784 7.63636 7.63636C7.98784 7.28488 7.98784 6.71512 7.63636 6.36364L6.36364 7.63636ZM1.6364 0.363607C1.28493 0.0121391 0.715075 0.0121391 0.363607 0.363607C0.0121391 0.715075 0.0121391 1.28493 0.363607 1.6364L1.6364 0.363607ZM1.6364 13.6364L7.63636 7.63636L6.36364 6.36364L0.363607 12.3636L1.6364 13.6364ZM7.63636 7.63636L13.6364 1.6364L12.3636 0.363607L6.36364 6.36364L7.63636 7.63636ZM6.36364 7.63636L12.3636 13.6364L13.6364 12.3636L7.63636 6.36364L6.36364 7.63636ZM7.63636 6.36364L1.6364 0.363607L0.363607 1.6364L6.36364 7.63636L7.63636 6.36364Z"
+                    fill="black"
+                ></path>
+                </svg>
+            </button>
+            <div class="modal_form_fortitle">
+                <p class="modal_form_fortitle_title">Ласкаво просимо!</p>
+            </div>
+            <div class="modal_form_fortitle2">
+                <p class="modal_form_fortitle2_title">Username</p>
+            </div>
+            <div class="modal_form_forinput1">
+                <input id="inpEmail" class="modal_form_forinput1_input1" type="text">
+            </div>
+            <div class="modal_form_fortitle3">
+                <p class="modal_form_fortitle3_title">Email</p>
+            </div>
+            <div class="modal_form_forinput2">
+                <input id="inpPassword" class="modal_form_forinput2_input1" type="password">
+            </div>
+            <div class="modal_form_fortitle4">
+                <p class="modal_form_fortitle4_title">Password</p>
+            </div>
+            <div class="modal_form_forinput3">
+                <input id="inpPassword" class="modal_form_forinput3_input1" type="password">
+            </div>
+            <div class="modal_form_fortitle5">
+                <p class="modal_form_fortitle5_title">Verify password</p>
+            </div>
+            <div class="modal_form_forinput4">
+                <input id="inpPassword" class="modal_form_forinput4_input1" type="password">
+            </div>
+            <div class="centerButtons">
+                <div class="containerOfButtons">
+                    <button id="btnRegister" class="modal_form_btnRegister">Register</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% block modals %}{% endblock %}
     <header class="header">
         <div class="header_forhead">
             <div class="header_forhead_head">
@@ -174,7 +226,7 @@
                                     fill="black" />
                             </svg>
                         </button>
-                        <button class="header_forhead_head_forbtn_divbtn_btn2" id="basket">
+                        <button class="header_forhead_head_forbtn_divbtn_btn2" id="profile">
                             <svg
                                 width="35"
                                 height="33"
@@ -235,5 +287,6 @@
     <main>
         {%block main%}{% endblock %}
     </main>
+    <script src="{{ url_for('static', filename='js/modal.js') }}"></script>
 </body>
 </html>
